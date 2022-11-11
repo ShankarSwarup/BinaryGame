@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Binary XO Game</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Binary Game</h1>
+        <p id="titles">Play by tapping on board cells<br><br>This game is same as X - O board game but with 0's and 1's <br><br> First Player starts as 
+            <b>Player 1</b><br><br>Second 
+            Player as <b>Player 0</b>
+        </p>
+        <br><br>
+        <input type="text" id="b1" onclick=
+        buttonn(this.id) readonly>
+   
+        <input type="text" id="b2" onclick=
+        buttonn(this.id) readonly>
+   
+        <input type="text" id="b3" onclick=
+        buttonn(this.id) readonly>
+        <br><br>
+   
+        <input type="text" id="b4" onclick=
+        buttonn(this.id) readonly>
+               
+        <input type="text" id="b5" onclick=
+        buttonn(this.id) readonly>
+   
+        <input type="text" id="b6" onclick=
+        buttonn(this.id) readonly>
+        <br><br>
+   
+        <input type="text" id="b7" onclick=
+        buttonn(this.id) readonly>
+   
+        <input type="text" id="b8" onclick=
+        buttonn(this.id) readonly>
+   
+        <input type="text" id="b9" onclick=
+        buttonn(this.id) readonly>
+   
+        <br><br><br>
+        <button id="but" onclick="Reload()">
+            NEW GAME
+        </button>
+   
+        <br><br>
+        <p id="print"></p>
+    </div>
+</body>
+</html>
